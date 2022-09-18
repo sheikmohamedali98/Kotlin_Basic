@@ -3,8 +3,10 @@ package Array_Kotlin
 import kotlin.Array
 
 class Array(size: Int) {
+    init{
     var array: IntArray = IntArray(size)
     var count: Int = 0;
+    }
 
     fun add(element: Int) {
         if (count == array.size) {
