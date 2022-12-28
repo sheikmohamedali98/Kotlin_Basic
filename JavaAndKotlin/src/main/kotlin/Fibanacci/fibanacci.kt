@@ -1,15 +1,15 @@
 package Fibanacci
 
-class fibanacci {
+class Fibanacci {
 
-    fun recursion(n: Int): Int {
+tailrec  fun recursion(n: Int): Int {
         if (n < 2) {
             return n
         }
         return recursion(n - 1).plus(recursion(n - 2))
     }
 
-    fun fibanacci(num: Int) {
+    fun fibanaccinu(num: Int) {
         var num1: Int = 0
         var num2: Int = 1
         print(" $num1  $num2")

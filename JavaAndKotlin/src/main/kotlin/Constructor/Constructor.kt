@@ -1,6 +1,6 @@
 package Constructor
 
-class Constructor(var n:String) {
+class Constructor( n:String) {
     var age:Int = 0;
     var name:String = n;
 

@@ -14,7 +14,7 @@ println("Claculate ${calCulatAmount(intrest = 0.04,amt=100)}")
     println("Claculate Default ${calCulatAmountDefault(100,0.02)}")
 }
 //void type
-fun add (a:Int,b:Int){
+public fun add (a:Int,b:Int):Unit{
     println("Void type  ${a+b}")
 }
 //return type
