@@ -32,4 +32,5 @@ in when condition we Don't need else case in enum
 fun main(){
     val order = Order(CoffeeSize.LARGE)
     println(order.size.getInfo())
+   println( CoffeeSize.MEDIUM.getInfo())
 }
